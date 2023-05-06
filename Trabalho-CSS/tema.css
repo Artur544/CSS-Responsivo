@@ -1,0 +1,39 @@
+#cabecalho
+{
+    position: absolute;
+    width: 100vw;
+    height: 8vw;
+    left: 0px;
+    top: 0px;
+    background: #FFB2C1;
+    display: flex;
+}
+
+.pal-cab
+{    
+    width: 2vw;
+    height: 1vw;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vw;
+    line-height: 31px;
+
+    color: #13062F;
+    flex-direction: row;
+    flex: 1;
+}
+
+#logo-cab
+{
+    width: max-content;
+    height: max-content;
+    flex: 2;
+}
+
+#logo-grande
+{
+    width: 45vw;
+    height: 8vw;
+}
