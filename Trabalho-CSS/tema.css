@@ -49,6 +49,7 @@ body
     height: 8vw;
     background: #FFB2C1;
     display: row;
+   
     
 }
 
@@ -65,7 +66,6 @@ body
     font-weight: 400;
     font-size: 3vw;
     line-height: 47px;
-    flex: 7;
 }
 
 .pal2-titulo 
@@ -87,12 +87,84 @@ body
 
 .vitrine 
 {
+    display: flex;
+    justify-content: center;
+}
+
+.kit
+{
     margin-top: 8vw;
     margin-left: 4vw;
     width: 25vw;
     height: 35vw;
     left: 79px;
     top: 364px;
+    display: row;
 
     background: #F7F1E1;
 }
+
+#img-caixa
+{
+    position: absolute;
+    width: 18vw;
+    height: 18vw;
+    margin-left: 3.5vw;
+    margin-top: 3vw;
+}
+
+.titulo-kit
+{
+    width: 244px;
+    height: 48px;
+    left: 138px;
+    top: 725px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vw;
+    line-height: 48px;
+
+    color: #000000;
+
+}
+
+.pal-kit 
+{
+    width: 195px;
+    height: 72px;
+    left: 162px;
+    top: 801px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 36px;
+
+    color: #000000
+}
+
+.botao
+{
+    width: 196px;
+    height: 85px;
+    background: #7EE5FD;
+    border-radius: 10px;
+
+    width: 146px;
+    height: 42px;
+    left: 180px;
+    top: 948px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 42px;
+    text-align: center;
+
+    color: #13062F;
+}
+
