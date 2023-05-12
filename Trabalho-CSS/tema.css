@@ -168,3 +168,10 @@ body
     color: #13062F;
 }
 
+.rodape
+{
+    width: 100vw;
+    height: 8vw;
+    background: #FFB2C1;
+    display: flex;
+}
