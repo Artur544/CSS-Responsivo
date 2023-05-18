@@ -13,9 +13,8 @@ body
 }
 
 .pal-cab
-{    
-    width: 2vw;
-    height: 1vw;
+{
+    text-align: center;
 
     font-family: 'Inter';
     font-style: normal;
@@ -24,7 +23,6 @@ body
     line-height: 31px;
 
     color: #13062F;
-    flex-direction: row;
     flex: 1;
 }
 
@@ -48,19 +46,10 @@ body
     width: 50vw;
     height: 8vw;
     background: #FFB2C1;
-    display: row;
-   
-    
 }
 
 .pal1-titulo
 {
-    
-    width: 800px;
-    height: 47px;
-    left: 580px;
-    top: 202px;
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -70,56 +59,50 @@ body
 
 .pal2-titulo 
 {
-    width: 680px;
-    height: 24px;
-    left: 648px;
-    top: 258px;
-    
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 2vw;
     line-height: 24px;
     
-    color: #000000;
-    
+    color: #000000;   
 }
 
 .vitrine 
 {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .kit
 {
-    margin-top: 8vw;
-    margin-left: 4vw;
+    display: grid;
+    grid-template-columns: auto;
+    margin: 8vw 2vw;
     width: 25vw;
-    height: 35vw;
-    left: 79px;
-    top: 364px;
-    display: row;
-
+    height: 45vw;
     background: #F7F1E1;
 }
 
-#img-caixa
+.caixa-misteriosa
 {
-    position: absolute;
+    width: 25vw;
+    height: 22vw;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+
+.img-caixa
+{
     width: 18vw;
     height: 18vw;
-    margin-left: 3.5vw;
-    margin-top: 3vw;
 }
 
 .titulo-kit
 {
-    width: 244px;
-    height: 48px;
-    left: 138px;
-    top: 725px;
-
+    text-align: center;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -127,16 +110,11 @@ body
     line-height: 48px;
 
     color: #000000;
-
 }
 
 .pal-kit 
 {
-    width: 195px;
-    height: 72px;
-    left: 162px;
-    top: 801px;
-
+    text-align: center;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -148,21 +126,18 @@ body
 
 .botao
 {
-    width: 196px;
-    height: 85px;
+    width: max-content;
+    height: max-content;
     background: #7EE5FD;
-    border-radius: 10px;
-
-    width: 146px;
-    height: 42px;
-    left: 180px;
-    top: 948px;
+    border-radius: 1vw;
+    padding: 1vw;
+    
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 2vw;
-    line-height: 42px;
+    line-height: 25px;
     text-align: center;
 
     color: #13062F;
