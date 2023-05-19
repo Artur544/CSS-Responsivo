@@ -143,25 +143,6 @@ body
     color: #13062F;
 }
 
-.botao 
-{
-    background-color: #F6EDA0;
-    display: block;
-    width: 90%;
-    margin-top: 20px;
-    border-radius: 20px;
-    text-align: center;
-    padding: 15px 3px;
-    cursor: pointer;
-    border: 0 none;
-    font-family: 'rubik';
-}
-
-.botao:hover 
-{
-    background-color: #e0d992;
-}
-
 .rodape
 {
     width: 100vw;
