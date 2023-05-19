@@ -1,0 +1,181 @@
+body
+{
+    background-color: #FFDBD7;
+    margin: 0;
+}
+
+#cabecalho
+{
+    width: 100vw;
+    height: 8vw;
+    background: #FFB2C1;
+    display: flex;
+}
+
+.pal-cab
+{
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vw;
+    line-height: 31px;
+
+    color: #13062F;
+    flex: 1;
+}
+
+#logo-cab
+{
+    width: max-content;
+    height: max-content;
+    flex: 2;
+}
+
+#logo-grande
+{
+    width: 45vw;
+    height: 8vw;
+}
+
+.titulo
+{
+    margin-top: 5vw;
+    margin-left: 24vw;
+    width: 50vw;
+    height: 8vw;
+    background: #FFB2C1;
+}
+
+.pal1-titulo
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vw;
+    line-height: 47px;
+}
+
+.pal2-titulo 
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 24px;
+    
+    color: #000000;   
+}
+
+.vitrine 
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.kit
+{
+    display: grid;
+    grid-template-columns: auto;
+    margin: 8vw 2vw;
+    width: 25vw;
+    height: 45vw;
+    background: #F7F1E1;
+}
+
+.caixa-misteriosa
+{
+    width: 25vw;
+    height: 22vw;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+
+.img-caixa
+{
+    width: 18vw;
+    height: 18vw;
+}
+
+.kit-descricao
+{
+
+}
+
+.titulo-kit
+{
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vw;
+    line-height: 48px;
+
+    color: #000000;
+}
+
+.pal-kit 
+{
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 36px;
+
+    color: #000000
+}
+
+.kit-botao
+{
+    padding: 0 8vw;
+}
+
+.botao
+{
+    background: #7ee5fd;
+    display: block;
+    border-radius: 1vw;
+    padding: 1vw 2vw;
+    cursor: pointer;
+    border: none;    
+    text-align: center;
+    font-family: 'Inter';
+}
+
+.botao:hover 
+{
+    background-color: #a8ebfa;
+}
+
+.botao-pal
+{   
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 25px;
+
+    color: #13062F;
+}
+
+/* .botao 
+{
+    background-color: #F6EDA0;
+    display: block;
+    width: 90%;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px 3px;
+    
+} */
+
+.rodape
+{
+    width: 100vw;
+    height: 8vw;
+    background: #FFB2C1;
+    display: flex;
+}
