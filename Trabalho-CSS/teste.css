@@ -17,9 +17,7 @@ body
     text-align: center;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
     font-size: 3vw;
-    line-height: 31px;
 
     color: #13062F;
     flex: 1;
@@ -44,6 +42,7 @@ body
     margin-left: 24vw;
     width: 50vw;
     height: 8vw;
+
     background: #FFB2C1;
 }
 
@@ -51,18 +50,14 @@ body
 {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 3vw;
-    line-height: 47px;
 }
 
 .pal2-titulo 
 {
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
     font-size: 2vw;
-    line-height: 24px;
     
     color: #000000;   
 }
@@ -76,21 +71,18 @@ body
 
 .kit
 {
-    display: grid;
-    grid-template-columns: auto;
     margin: 8vw 2vw;
-    width: 25vw;
-    height: 45vw;
+    padding: 4vw;
+    width: max-content;
+    height: max-content;
+    
     background: #F7F1E1;
 }
 
 .caixa-misteriosa
 {
-    width: 25vw;
-    height: 22vw;
-    display: grid;
-    justify-items: center;
-    align-content: center;
+    width: max-content;
+    height: max-content;
 }
 
 .img-caixa
@@ -101,48 +93,49 @@ body
 
 .kit-descricao
 {
-
+    width: 18vw;
 }
 
 .titulo-kit
 {
+    display: block;
     text-align: center;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
     font-size: 4vw;
-    line-height: 48px;
+    margin-bottom: 2vw;
 
     color: #000000;
 }
 
 .pal-kit 
 {
-    text-align: center;
+    display: block;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
-    font-size: 2vw;
-    line-height: 36px;
+    font-size: clamp(16px, 2vw, 23px);
 
     color: #000000
 }
 
 .kit-botao
 {
-    padding: 0 8vw;
+    width: max-content;
+    padding: 3vw 0 0 2vw;
 }
 
 .botao
 {
-    background: #7ee5fd;
     display: block;
+    width: max-content;
     border-radius: 1vw;
-    padding: 1vw 2vw;
+    padding: 1vw 3vw;
     cursor: pointer;
     border: none;    
     text-align: center;
     font-family: 'Inter';
+
+    background: #7ee5fd;
 }
 
 .botao:hover 
@@ -150,12 +143,11 @@ body
     background-color: #a8ebfa;
 }
 
+
 .botao-pal
 {   
     font-style: normal;
-    font-weight: 400;
     font-size: 2vw;
-    line-height: 25px;
 
     color: #13062F;
 }
