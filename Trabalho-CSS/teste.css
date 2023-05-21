@@ -208,6 +208,44 @@ a
     height: 6vw;
 }
 
+#caixa-registro
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+#caixa-esquerda
+{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
+#caixa-direita
+{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#registro
+{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 8% 10%;
+    background-color: azure;
+    border-radius: 2vw;
+    box-shadow: 0 0.5vw 1vw #FFB2C1;
+}
 
