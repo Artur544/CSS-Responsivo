@@ -71,7 +71,7 @@ body
 
 .kit
 {
-    margin: 8vw 2vw;
+    margin: 5vw 2vw 0vw;
     padding: 4vw;
     width: max-content;
     height: max-content;
@@ -170,4 +170,9 @@ body
     height: 8vw;
     background: #FFB2C1;
     display: flex;
+}
+
+.rodape
+{
+    margin-top: 12vw;
 }
