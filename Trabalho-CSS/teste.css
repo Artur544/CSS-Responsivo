@@ -74,7 +74,7 @@ body
     margin: 5vw 2vw 0vw;
     padding: 4vw;
     width: max-content;
-    height: max-content;
+    height: 38vw;
     
     background: #F7F1E1;
 }
@@ -166,13 +166,30 @@ body
 
 .rodape
 {
+    margin-top: 12vw;
     width: 100vw;
     height: 8vw;
     background: #FFB2C1;
     display: flex;
 }
 
-.rodape
+.pal-rodape 
 {
-    margin-top: 12vw;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 2vw;
+    flex: 2;
+
+    color: #13062F;
+}
+
+.logo-pequena 
+{
+    width: 25vw;
+    height: 6vw;
+}
+
+.logo-rodape {
+    
 }
