@@ -18,9 +18,15 @@ body
     font-family: 'Inter';
     font-style: normal;
     font-size: 3vw;
-
+   
     color: #13062F;
     flex: 1;
+}
+
+a 
+{
+    color: #13062F;
+    text-decoration: none;
 }
 
 #logo-cab
@@ -74,7 +80,7 @@ body
     margin: 5vw 2vw 0vw;
     padding: 4vw;
     width: max-content;
-    height: 38vw;
+    height: max-content;
     
     background: #F7F1E1;
 }
@@ -179,7 +185,6 @@ body
     font-family: 'Inter';
     font-style: normal;
     font-size: 2vw;
-    flex: 2;
 
     color: #13062F;
 }
@@ -190,6 +195,6 @@ body
     height: 6vw;
 }
 
-.logo-rodape {
-    
-}
+
+
+
