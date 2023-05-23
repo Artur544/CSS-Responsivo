@@ -195,10 +195,10 @@ a
 
 .pal-rodape 
 {
-    text-align: center;
+    text-align: left;
     font-family: 'Arial';
     font-size: 2vw;
-
+    margin-left: 4vw;
     color: #13062F;
 }
 
@@ -253,3 +253,4 @@ a
 {
 
 }
+
