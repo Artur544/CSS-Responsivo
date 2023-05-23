@@ -70,16 +70,17 @@ a
 
 .pal1-titulo
 {
+    padding-top: 2vw;
     font-family: 'Arial';
     font-size: 2vw;
+    text-align: center;
 }
 
 .pal2-titulo 
 {
     font-family: 'Arial';
     font-size: 1.5vw;
-    
-    color: #000000;   
+    text-align: center;
 }
 
 .vitrine 
@@ -94,9 +95,17 @@ a
     margin: 5vw 2vw 0vw;
     padding: 4vw;
     width: max-content;
-    height: max-content;
+    height: 500px;
     
     background: #F7F1E1;
+}
+
+@media (max-width: 465px)
+{
+    .kit
+    {
+        height: 250px;
+    }
 }
 
 .caixa-misteriosa
@@ -170,23 +179,11 @@ a
     color: #13062F;
 }
 
-/* .botao 
-{
-    background-color: #F6EDA0;
-    display: block;
-    width: 90%;
-    margin-top: 20px;
-    border-radius: 20px;
-    text-align: center;
-    padding: 15px 3px;
-    
-} */
-
 .rodape
 {
     margin-top: 12vw;
     width: 100vw;
-    height: 8vw;
+    height: 10vw;
     background: #FFB2C1;
     display: flex;
 }
@@ -197,11 +194,13 @@ a
     font-family: 'Arial';
     font-size: 2vw;
     margin-left: 4vw;
+    margin-top: 1vw;
     color: #13062F;
 }
 
 .logo-pequena 
 {
+    margin-top: 1vw;
     width: 25vw;
     height: 6vw;
 }
@@ -215,7 +214,7 @@ a
     align-items: center;
 }
 
-#caixa-esquerda
+/* #caixa-esquerda
 {
     width: 50vw;
     height: 100vh;
@@ -223,12 +222,12 @@ a
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
+} */
 
-#caixa-direita
+#caixa-conteudo
 {
-    width: 50vw;
-    height: 100vh;
+    width: 90vw;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -236,7 +235,7 @@ a
 
 #registro
 {
-    width: 60%;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -258,15 +257,17 @@ a
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: 3% 0;
 }
 
 .caixa
 {
-    margin: 5% 2% 4% 2%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    border: none;
+    margin-left: 5%;
 }
 
 .caixa > input
@@ -274,7 +275,7 @@ a
     width: 100%;
     border: none;
     border-radius: 0.5vw;
-    padding: 1vw;
+    padding: 0.8vw;
     box-shadow: 0 0.5vw 1vw rgb(194, 207, 207);
     outline: none;
     box-sizing: border-box;
@@ -285,3 +286,18 @@ a
     margin: 1% 0 4% 0;
 }
 
+.botao-login
+{
+    background-color: #FFDBD7;
+    box-shadow: 0 0.3vw 0.7vw #d6b8b4;
+    width: 50%;
+    padding: 2% ;
+    margin: 5% 3%;
+    border: none;
+    border-radius: 10px;
+}
+
+.botao-login:hover
+{
+    background-color: #fbe5e2;
+}
