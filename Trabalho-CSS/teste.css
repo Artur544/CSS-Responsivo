@@ -1,11 +1,10 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap); 
 
-html
+:root
 {
-    font-family: Arial;
+    font-family: 'Roboto Mono', monospace;
     background-color: #FFDBD7;
 }
-
-
 
 body,ul, li, p 
 {
@@ -16,7 +15,6 @@ body,ul, li, p
     font-family: Arial;
     list-style: none;
     overflow-x: hidden;
-    
 }
 
 .header 
@@ -243,14 +241,47 @@ a
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 8% 10%;
+    padding: 5% 10%;
     background-color: azure;
     border-radius: 2vw;
     box-shadow: 0 0.5vw 1vw #FFB2C1;
 }
 
+#registro > h2
+{
+    font-weight: 800;
+    margin: 0;
+}
+
+#cadastro
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .caixa
 {
+    margin: 5% 2% 4% 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
 
+.caixa > input
+{
+    width: 100%;
+    border: none;
+    border-radius: 0.5vw;
+    padding: 1vw;
+    box-shadow: 0 0.5vw 1vw rgb(194, 207, 207);
+    outline: none;
+    box-sizing: border-box;
+}
+
+.caixa > label
+{
+    margin: 1% 0 4% 0;
 }
 
