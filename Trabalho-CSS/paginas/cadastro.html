@@ -4,96 +4,90 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="teste.css">
+        <link rel="stylesheet" href="css/tema.css">
+        <title>Aesthetic Store</title>
     </head>
-    <div class="container">
-        <header class="header">
-            <a href="teste.html"><img id="logo-grande" src="img/logo.png" alt=""></a>
-    <nav>
-        <ul class="menu">
-            <li><a href="roupas.html">Roupas</a></li>
-            <li><a href="decoracao.html">Decoração</a></li>
-            <li><a href="jogos.html">Jogos</a></li>
-            <li><a href="cadastro.html">Cadastro</a></li>
-            <li><a href="">Seja Membro</a></li>
-        </ul>
-    </nav>
-        </header>
+    
     <body>
-        <div id="caixa-registro">
-            <div id="caixa-conteudo">
-                <div id="registro">
-                    <h2>Cadastre-se</h2>
+        <div class="container">
+            <header class="header">
+                <a href="index.html"><img id="logo-grande" src="img/logo.png" alt=""></a>
+                <nav>
+                    <ul class="menu">
+                        <li><a href="roupas.html">Roupas</a></li>
+                        <li><a href="decoracao.html">Decoração</a></li>
+                        <li><a href="jogos.html">Jogos</a></li>
+                        <li><a href="cadastro.html">Cadastro</a></li>
+                        <li><a href="membro.html">Seja Membro</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div id="caixa-registro">
+                <div id="caixa-conteudo">
+                    <div id="registro">
+                        <h2>Cadastre-se</h2>
 
-                    <div id="cadastro">
-                        <fieldset class="caixa">
-                            <label for="nome">Nome</label>
-                            <input type="text" name="nome" id="nome" placeholder="Digite o seu nome">
-                        </fieldset>
+                        <div id="cadastro">
+                            <fieldset class="caixa">
+                                <label for="nome">Nome</label>
+                                <input type="text" name="nome" id="nome" placeholder="Digite o seu nome">
+                            </fieldset>
 
-                        <fieldset class="caixa">
-                            <label for="sobrenome">Sobrenome</label>
-                            <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite o seu sobrenome">
-                        </fieldset>
+                            <fieldset class="caixa">
+                                <label for="sobrenome">Sobrenome</label>
+                                <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite o seu sobrenome">
+                            </fieldset>
 
-                        <fieldset class="caixa">
-                            <label for="email">E-mail</label>
-                            <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
-                        </fieldset>
+                            <fieldset class="caixa">
+                                <label for="email">E-mail</label>
+                                <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+                            </fieldset>
 
-                        <fieldset class="caixa">
-                            <label for="data">Data de Nascimento</label>
-                            <input type="date" name="data" id="data">
-                        </fieldset>
-                        
-                        <fieldset class="caixa">
-                            <label for="cpf">CPF</label>
-                            <input type="number" name="cpf" id="cpf" placeholder="Digite seu CPF">
-                        </fieldset>
+                            <fieldset class="caixa">
+                                <label for="data">Data de Nascimento</label>
+                                <input type="date" name="data" id="data">
+                            </fieldset>
+                            
+                            <fieldset class="caixa">
+                                <label for="cpf">CPF</label>
+                                <input type="number" name="cpf" id="cpf" placeholder="Digite seu CPF">
+                            </fieldset>
 
-                        <fieldset class="caixa">
-                            <label for="cep">CEP</label>
-                            <input type="number" name="cep" id="cep" placeholder="Digite seu CEP">
-                        </fieldset>
+                            <fieldset class="caixa">
+                                <label for="cep">CEP</label>
+                                <input type="number" name="cep" id="cep" placeholder="Digite seu CEP">
+                            </fieldset>
+                        </div>
+
+                        <button class="botao-login">Cadastrar</button>
                     </div>
-
-                    <button class="botao-login">Login</button>
                 </div>
             </div>
         </div>
-        <footer>
-            <div class="rodape">
-                <div id="redes-sociais">
-                    <div class="pal-rodape">Redes Sociais</div>
-                    <div id="logos-rede">
-                        <div id="linkedin"></div>
-                        <div id="facebook"></div>
-                        <div id="instagram"></div>
-                    </div>
-                </div>
-                <div id="contatos">
-                    <div class="pal-rodape">
-                        Dados de contato
-                        <br>
-                        AestheticStore@gmail.com
-                        <br>
-                        (+55) 53 99898-2264
-                    </div>
-                </div>
-                <div id="redirecionamento">
-                    <div class="pal-rodape">
-                        <a href="#logo-grande">Começo</a>
-                        <br>
-                        Comunidade
-                        <br>
-                        Devoluções e reembolsos
-                    </div>
-                </div>
-                <div class="logo-rodape">
-                    <img class="logo-pequena"src="img/logo.png" alt="">
+    </body>
+    <footer>
+        <div class="rodape">
+            <div id="redes-sociais">
+                <span class="pal-rodape">Redes Sociais</span>
+                <div id="logos-rede">
+                    <div id="linkedin"></div>
+                    <div id="facebook"></div>
+                    <div id="instagram"></div>
                 </div>
             </div>
-        </footer>
-    </body>
+            <div id="contatos">
+                <span class="pal-rodape">Dados de contato</span>
+                <span class="pal-rodape">AestheticStore@gmail.com</span>
+                <span class="pal-rodape">(+55) 53 99898-2264</span>
+            </div>
+            <div id="redirecionamento">
+                <a class="pal-rodape" href="#logo-grande">Começo</a>
+                <span class="pal-rodape">Comunidade</span>
+                <span class="pal-rodape">Devoluções e reembolsos</span>
+            </div>
+            <div class="logo-rodape">
+                <img class="logo-pequena"src="img/logo.png" alt="">
+            </div>
+        </div>
+    </footer>
 </html>
