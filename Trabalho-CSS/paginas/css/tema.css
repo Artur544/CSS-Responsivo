@@ -199,6 +199,7 @@ a {
 .logo-rodape
 {
     padding: 5% 0;
+    width: 50px;
 }
 
 .logo-pequena 
@@ -304,133 +305,51 @@ a {
     text-align: center;
 }
 
-#plano-linha
-{
-    width: 90%;
-    max-width: 1100px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 25px;
-}
-
-.plano-coluna
-{
-    background: #F7F1E1;
-    padding: 10% 15%;
-    border-radius: 10px;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    box-shadow: 7px 7px 1vw  #FFB2C1;
-}
-
-.coluna-preco > p
-{
-    font-size: 22px;
-}
-
-.coluna-preco > h3
-{
-    font-size: 40px;
-    margin: 20px 0 40px;
-    font-weight: 500;
-}
-
-.coluna-preco > h3 > span
-{
-    font-size: 18px;
-}
-
-.coluna-preco > ul
-{
-    text-align: left;
-    margin: 20px 0;
-    list-style: none;
-}
-
-.coluna-preco > ul > li
-{
-    margin: 15px 0;
-}
-
-.coluna-preco > ul > li::before
-{
-    content: "\2022";
-    color: #e33058;
-    font-weight: bold;
-    margin-right: 8px;
-}
-
-.coluna-botao > button
-{
-    width: 100%;
-    padding: 14px 0;
-    background: #7ee5fd;
-    box-shadow: 7px 7px 1vw #d5d0c2;
-    border: none;
-    font-size: 15px;
-    border-radius: 6px;
-    margin: 30px 0;
-    cursor: pointer;
-}
-
-.coluna-botao > button:hover
-{
-    background-color: #a8ebfa;
-}
-
 #tab-conteudo
 {
-    padding: 0;
-    margin: 40px auto 0;
-}
-
-#tab-conteudo > h2
-{
-    font-size: 40px;
-    text-align: center;
-    margin-bottom: 40px;
-   
+    padding: 0 10%;
+    margin: 0 auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 table
 {
-    width: 100%;
+    margin: 5% 0;
+    border-radius: 8px;
     background-color: #F7F1E1;
+    box-shadow: 7px 7px 1vw #FFB2C1;
     border-collapse: collapse;
 }
 
-#tab-nome > th
+.tab-nome > th
 {
     font-size: 20px;
     font-weight: 600;
-    padding: 12px;
-    border: 1px solid #000000;
+    padding: 15px;
 }
 
-#tab-preco > td
+.tab-preco > td
 {
     font-size: 25px;
     font-weight: normal;
     text-align: center;
-    border: 1px solid #000000;
+    padding: 2%;
 }
 
-#tab-lista > td
+.tab-lista > td
 {
-    padding: 8px 30px;
-    border: 1px solid #000000;
+    padding: 30px 30px;
 }
 
-#tab-botao > td
+.tab-botao > td
 {
     padding: 5%;
-    border: 1px solid #000000;
 }
 
-#tab-botao > td > button
+.tab-botao > td > button
 {
     width: 100%;
     padding: 14px 0;
@@ -440,4 +359,16 @@ table
     font-size: 15px;
     border-radius: 6px;
     cursor: pointer;
+}
+
+.tab-botao > td > button:hover
+{
+    background-color: #a8ebfa;
+}
+
+.container > #video
+{
+    height: clamp(200px, 50vw, 552px);
+    align-items: center;
+    padding: 0 10%;
 }
