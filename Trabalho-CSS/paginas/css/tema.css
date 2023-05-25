@@ -20,6 +20,7 @@ body, ul, li, p {
 
 .menu {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .menu > li {
@@ -196,10 +197,15 @@ a {
     justify-content: space-around;
 }
 
+.logo-rodape img {
+    width: 100%;
+    height: auto;
+}
+
 .logo-rodape
 {
     padding: 5% 0;
-    width: 50px;
+    width: minmax(150px,15%);
 }
 
 .logo-pequena 
